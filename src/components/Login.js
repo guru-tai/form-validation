@@ -52,6 +52,12 @@ const Login=()=>{
                 </div>
             </form>
             <div>
+            {`for admin credintials=> username: "admin", password: "admin123"`}
+            </div>
+            <div>
+            {`for user credintials=> username: "user", password: "user123"`}
+            </div>
+            <div>
                 {error&&<p>error...{error}</p>}
             </div>
         </div>
